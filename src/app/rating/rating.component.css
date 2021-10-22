@@ -1,0 +1,49 @@
+p{
+  font-size: 18 px; 
+  text-align: justify
+}
+.card-header {
+    padding: 5.5em 3.5em 3.5em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    box-shadow: 0 5px 10px rgb(238, 232, 232);
+}
+.card{
+    border-radius: 2em;
+    height: 100%;
+    box-shadow: 3px 3px 30px rgb(186, 227, 240);
+    background: rgb(255, 255, 255);
+}
+.img-fluid {
+    border-radius: 2em;
+    margin-top: 50%;
+    box-shadow: 3px 3px 3px rgb(66, 66, 66);
+    height: 250px;
+    width: 300px;
+}
+
+.star {
+    position: relative;
+    display: inline-block;
+    font-size: 2.5rem;
+    color: #caab20;
+  }
+  .full {
+    color: red;
+  }
+  .half {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    color: red;
+  }
+
+.card-group {
+    border-radius: 2em;
+    height: 100%;
+    box-shadow: 3px 3px 30px rgba(82, 203, 240, 0.699);
+    background: rgb(255, 255, 255);
+}
+h5 {
+  margin-top: 20px;
+}
