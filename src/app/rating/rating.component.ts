@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 
 @Component({
   selector: 'rating',
@@ -7,13 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RatingComponent implements OnInit {
 
+  @Input() hero: any
+
   constructor() { }
 
   currentRate = 0;
 
   ngOnInit(): void {
+    console.warn(this.hero)
   }
 
-  
+
 
 }
